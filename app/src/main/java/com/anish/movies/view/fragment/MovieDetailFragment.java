@@ -32,7 +32,7 @@ public class MovieDetailFragment extends BaseFragment<MovieDetailsViewModel, Fra
             dataBinding.textTitle.setText(args.getString(Constants.BUNDLE_KEY_MOVIE_TITLE));
             dataBinding.textReleaseDate.setText(getString(R.string.released)+": "+args.getString(Constants.BUNDLE_KEY_MOVIE_RELEASED_DATE));
             dataBinding.textVote.setText(args.getString(Constants.BUNDLE_KEY_MOVIE_AVERAGE_VOTE)+"/10 ("+args.getString(Constants.BUNDLE_KEY_MOVIE_VOTE_COUNT)+")");
-            dataBinding.textOverview.setText(": "+args.getString(Constants.BUNDLE_KEY_MOVIE_OVERVIEW));
+            dataBinding.textOverview.setText(args.getString(Constants.BUNDLE_KEY_MOVIE_OVERVIEW));
         }
     }
 }
