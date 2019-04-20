@@ -7,7 +7,7 @@ import com.anish.movies.BuildConfig;
 /**
  * The generic log class for application wide logging
  */
-class Logs {
+public class Logs {
     private static final boolean ENABLE_LOGS = BuildConfig.DEBUG;
 
     private Logs() {
